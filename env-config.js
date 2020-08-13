@@ -1,21 +1,21 @@
-const webpack = require('webpack')
+// const webpack = require('webpack')
 
-const isProd = (process.env.NODE_ENV || 'production') === 'production'
+// const isProd = (process.env.NODE_ENV || 'production') === 'production'
 
-const assetPrefix = isProd ? '/' : ''
+// const assetPrefix = isProd ? '/' : ''
 
-module.exports = {
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
-  assetPrefix: assetPrefix,
-  webpack: config => {
-    config.plugins.push(
-      new webpack.DefinePlugin({
-        'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
-      }),
-    )
+// module.exports = {
+//   exportPathMap: () => ({
+//     '/': { page: '/' },
+//   }),
+//   assetPrefix: assetPrefix,
+//   webpack: config => {
+//     config.plugins.push(
+//       new webpack.DefinePlugin({
+//         'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
+//       }),
+//     )
 
-    return config
-  },
-}
+//     return config
+//   },
+// }
