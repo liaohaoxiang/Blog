@@ -1,8 +1,3 @@
-const isProd = (process.env.NODE_ENV || 'production') === 'production'
+const withCSS = require('@zeit/next-css')
 
-module.exports = {
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
-  assetPrefix: isProd ? 'Blog/' : '',
-}
+module.exports = withCSS({})
