@@ -14,8 +14,7 @@ const App = ({ Component, pageProps }) => {
     <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="liaohaoxiang,Neo's Blog,廖浩翔博客,廖浩翔"/>
-        <meta name="baidu-site-verification" content="code-epyP17tVef" />
-        <link rel="icon shortcut" href="/images/favicon.ico" type="image/x-icon"/>
+        <meta name="baidu-site-verification" content="code-H3YwJ5KaQg" />        <link rel="icon shortcut" href="/images/favicon.ico" type="image/x-icon"/>
         <meta
           name="description"
           content="廖浩翔的博客,Neo's Blog"
